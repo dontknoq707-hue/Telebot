@@ -18,8 +18,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 WISHLIST_API = "https://www.sheinindia.in/api/wishlist/getwishlist"
 
-TELEGRAM_BOT_TOKEN = "8512619829:AAHF4ZcUzbLzogdeakvAGDixjBDeBSLEfiM" # Change with your telegram bot token
-TELEGRAM_CHAT_ID = "5933138037" # Change with your telegram chat id
+TELEGRAM_BOT_TOKEN = "8686502923:AAH84Rxgxw-Wfdf_FAfcBxq61QjZgPeSnps" # Change with your telegram bot token
+TELEGRAM_CHAT_ID = "7691776893" # Change with your telegram chat id
 
 # Configure requests session to ignore SSL verification
 session = requests.Session()
@@ -620,3 +620,4 @@ if __name__ == "__main__":
         time.sleep(5)
 
         os.execv(sys.executable, ['python'] + sys.argv)
+
