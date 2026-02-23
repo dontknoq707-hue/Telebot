@@ -618,4 +618,5 @@ if __name__ == "__main__":
         logger.error(f"Bot error: {e}")
         logger.info("Restarting bot in 5 seconds...")
         time.sleep(5)
+
         os.execv(sys.executable, ['python'] + sys.argv)
